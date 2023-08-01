@@ -16,16 +16,16 @@ namespace CadastroFuncionarios.Models
         [Required(ErrorMessage = "Este campo é de preenchimento obrigatório.")]
         [Column(TypeName = "varchar(50)")]
         [DisplayName("Matrícula")]
-        public int EmpCode { get; set; }
+        public string EmpCode { get; set; }
 
         [Required(ErrorMessage = "Este campo é de preenchimento obrigatório.")]
         [Column(TypeName = "varchar(100)")]
         [DisplayName("Cargo")]
-        public int Position { get; set; }
+        public string Position { get; set; }
 
         [Required(ErrorMessage = "Este campo é de preenchimento obrigatório.")]
         [Column(TypeName = "varchar(100)")]
         [DisplayName("Localização")]
-        public int OfficeLocation { get; set; }
+        public string OfficeLocation { get; set; }
     }
 }
