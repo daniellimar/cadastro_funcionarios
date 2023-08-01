@@ -9,10 +9,22 @@ html {
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
   margin-bottom: 60px;
 }
+
+a {
+    text-decoration: none;
+}
+
+/* Estilos do rodapé */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Outras propriedades de estilo que você queira adicionar */
+}   
