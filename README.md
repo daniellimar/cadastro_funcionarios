@@ -1,6 +1,6 @@
 # CadastroFuncionarios
-
-Um parágrafo da descrição do projeto vai aqui
+![CadastroFuncionarios](Telas/2.png)
+![CadastroFuncionarios](Telas/1.png)
 
 ## 🚀 Começando
 
@@ -9,7 +9,7 @@ gerenciamento de dados que são frequentemente implementadas em sistemas de soft
 
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+Passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
 
 ```
 git clone <link repo>
@@ -20,8 +20,6 @@ git clone <link repo>
 Usando Entity Framework: ORM (Object-Relational Mapping) para se conectar ao banco de dados e executar operações de CRUD.
 
 ## 🛠️ Construído com
-
-Mencione as ferramentas que você usou para criar seu projeto
 
 * [C#](http://www.dropwizard.io/1.0.2/docs/)
 * [.NET](https://maven.apache.org/)
