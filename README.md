@@ -21,8 +21,8 @@ Usando Entity Framework: ORM (Object-Relational Mapping) para se conectar ao ban
 
 ## 🛠️ Construído com
 
-* [C#](http://www.dropwizard.io/1.0.2/docs/)
-* [.NET](https://maven.apache.org/)
-* [ASP.NET](https://rometools.github.io/rome/)
+* [C#](#)
+* [.NET](#)
+* [ASP.NET](#)
 
 ⌨️ por [Daniel Rodrigues de Lima](https://github.com/daniellimar/) 
