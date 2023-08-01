@@ -51,9 +51,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.OfficeLocation)
             </td>
-            <td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.EmployeeId">Detalhes</a> |
                 <a asp-action="Edit" asp-route-id="@item.EmployeeId">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.EmployeeId">Detalhes</a> |
                 <a asp-action="Delete" asp-route-id="@item.EmployeeId">Excluir</a>
             </td>
         </tr>
