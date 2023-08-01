@@ -1,13 +1,14 @@
 ﻿@model CadastroFuncionarios.Models.Employee
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Funcionários - Detalhes";
 }
 
-<h1>Details</h1>
-
+<h1>
+    Detalhes
+</h1>
+<h4>Funcionário</h4>
 <div>
-    <h4>Employee</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -36,7 +37,13 @@
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.EmployeeId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+
+<div class="form-group p-2">
+    <a asp-action="Index" class="btn btn-secondary col-sm-2 mb-3">
+        <i class="fa fa-arrow-left mr-3" aria-hidden="true"></i>
+        Voltar a Lista
+    </a>
+    <a asp-action="Edit" asp-route-id="@Model?.EmployeeId" class="btn btn-primary col-sm-2 mb-3">
+        Editar
+    </a>
 </div>

@@ -1,14 +1,11 @@
 ﻿@model CadastroFuncionarios.Models.Employee
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Funcionários - Excluir";
 }
 
-<h1>Delete</h1>
-
-<h3>Are you sure you want to delete this?</h3>
+<h3>Tem certeza de que deseja excluir isso?</h3>
 <div>
-    <h4>Employee</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -39,7 +36,10 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="EmployeeId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <a asp-action="Index" class="btn btn-secondary col-sm-2 mb-3">
+            <i class="fa fa-arrow-left mr-3" aria-hidden="true"></i>
+            Voltar a Lista
+        </a>
+        <input type="submit" value="Excluir" class="btn btn-danger col-sm-2 mb-3">
     </form>
 </div>
